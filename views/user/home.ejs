@@ -1,12 +1,883 @@
-<%-include('navbar.ejs') %>
+<!DOCTYPE html>
+<html lang="en">
 
-<section id="hero" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-      <h1 style="font-size: 40px;"><%= home_info.your_name%></h1>
-      <h2 class="text-primary">I'm a Full Stack Web Developer</h2>
-      <a href="/about" class="btn-about">About Me</a>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Viraj Dhakane</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <!-- <link href="user/img/favicon.png" rel="icon"> -->
+  <!-- <link href="user/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="user/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="user/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="user/vendor/aos/aos.css" rel="stylesheet">
+  <link href="user/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="user/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="user/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Craftivo
+  * Template URL: https://bootstrapmade.com/craftivo-bootstrap-portfolio-template/
+  * Updated: Oct 04 2025 with Bootstrap v5.3.8
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="user/img/logo.webp" alt=""> -->
+        <h1 class="sitename">VD</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <!-- <li><a href="#services">Services</a></li> -->
+          <li><a href="#portfolio">Portfolio</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#about">Get Started</a>
+
     </div>
-</section>
-<!-- End Hero -->
-	
-<%-include('footer.ejs') %>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section dark-background">
+
+      <img src="user/img/profile/profile-bg-5.png" alt="" data-aos="fade-in">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2>Hi, I'm Viraj Dhakane</h2>
+            <p>I'm a <span class="typed" data-typed-items="Full Stack Developer,MERN Stack Developer,Software Developer"></span><span class="typed-cursor" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href="https://x.com/viraj_0619?t=CaJKhFb-4Iiv0ktuSShdnQ&s=09" target="_blank"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://www.facebook.com/share/17Dy4vwGDn/" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/viraj0619?igsh=MTU5NHl3OXpkbDBpeA==" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/viraj-dhakane-40055b265/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">About Me</span>
+        <h2>About Me</h2>
+        <p>Full Stack Web Developer with a strong Computer Science Engineering foundation, specializing in designing and developing responsive, scalable web applications using React.js, Node.js, Express.js, and MySQL, with expertise in admin dashboards, RESTful APIs, responsive UIs, and real-time data handling.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="150">
+            <div class="profile-card">
+              <div class="profile-header">
+                <div class="profile-avatar">
+                  <img src="user/img/profile/profile-dp.jpg" class="img-fluid" alt="">
+                  <div class="status-indicator"></div>
+                </div>
+                <h3>Viraj Dhakane</h3>
+                <span class="role">Full Stack Developer</span>
+                <div class="rating">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <span>4.8</span>
+                </div>
+              </div>
+
+              <div class="profile-stats">
+                <div class="stat-item">
+                  <h4>10+</h4>
+                  <p>Projects</p>
+                </div>
+                <div class="stat-item">
+                  <h4>2+</h4>
+                  <p>Years</p>
+                </div>
+                <div class="stat-item">
+                  <h4>2</h4>
+                  <p>Awards</p>
+                </div>
+              </div>
+
+              <div class="profile-actions">
+<a href="/cv/viraj-cv.pdf" class="btn-primary" download>
+  <i class="bi bi-download"></i> Download CV
+</a>
+                <a href="#" class="btn-secondary"><i class="bi bi-envelope"></i> Contact</a>
+              </div>
+
+              <div class="social-connect">
+                <a href="https://www.linkedin.com/in/viraj-dhakane-40055b265/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/viraj0619" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://x.com/viraj_0619?t=CaJKhFb-4Iiv0ktuSShdnQ&s=09" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.instagram.com/viraj0619?igsh=MTU5NHl3OXpkbDBpeA==" target="_blank"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-left" data-aos-delay="200">
+            <div class="content-wrapper">
+              <div class="bio-section">
+                <div class="section-tag">About Me</div>
+                <h2>Full Stack Web Developer</h2>
+                <p>I’m a Full Stack Web Developer (MERN Stack) with a background in Computer Science Engineering, passionate about building responsive and scalable web applications. I specialize in creating seamless digital experiences using modern technologies.</p>
+                <p>I have hands-on experience in developing admin dashboards, RESTful APIs, responsive UI clones, and applications that handle real-time data efficiently. My goal is to craft web solutions that are not only visually appealing but also optimized for performance and scalability.</p>
+              </div>
+
+              <div class="details-grid">
+                <div class="detail-item" data-aos="fade-up" data-aos-delay="250">
+                  <i class="bi bi-briefcase"></i>
+                  <div class="detail-content">
+                    <span>Experience</span>
+                    <strong>2+ Years</strong>
+                  </div>
+                </div>
+
+                <div class="detail-item" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-mortarboard"></i>
+                  <div class="detail-content">
+                    <span>Degree</span>
+                    <strong>Master of Computer Application</strong>
+                  </div>
+                </div>
+
+                <div class="detail-item" data-aos="fade-up" data-aos-delay="350">
+                  <i class="bi bi-geo-alt"></i>
+                  <div class="detail-content">
+                    <span>Based In</span>
+                    <strong>Pune, Maharashtra, India</strong>
+                  </div>
+                </div>
+
+                <div class="detail-item" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bi bi-envelope"></i>
+                  <div class="detail-content">
+                    <span>Email</span>
+                    <strong>dhakaneviraj0@gmail.com</strong>
+                  </div>
+                </div>
+
+                <div class="detail-item" data-aos="fade-up" data-aos-delay="150">
+                  <i class="bi bi-phone"></i>
+                  <div class="detail-content">
+                    <span>Phone</span>
+                    <strong>+91 9921677037</strong>
+                  </div>
+                </div>
+
+                <div class="detail-item" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bi bi-calendar-check"></i>
+                  <div class="detail-content">
+                    <span>Availability</span>
+                    <strong>Open to Work</strong>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills-showcase" data-aos="fade-up" data-aos-delay="250">
+                <div class="section-tag">Core Skills</div>
+                <h3>Technical Proficiency</h3>
+
+                <div class="skills-list skills-animation">
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">React &amp; Redux</span>
+                      <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                   <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">PHP &amp; Laravel</span>
+                      <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">Node.js &amp; Express</span>
+                      <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">UI/UX &amp; Bootstrap</span>
+                      <span class="skill-percent">88%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+
+                     <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">HTML5, CSS &amp; JS.</span>
+                      <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">MongoDB &amp; MySQL</span>
+                      <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">GitHub &amp; AWS</span>
+                      <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Resume</span>
+        <h2>Resume</h2>
+        <p>   Passionate Full Stack Web Developer (MERN Stack) with a strong foundation in Computer Science Engineering, focused on creating responsive, scalable, and user-friendly web applications. Skilled in React.js, Node.js, Express.js, and MySQL, with hands-on experience in admin dashboards, RESTful APIs, and real-time data-driven solutions.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+          <div class="col-lg-6">
+            <div class="experience-section">
+              <div class="section-header" data-aos="fade-right" data-aos-delay="200">
+                <div class="header-content">
+                  <span class="section-badge">Experience</span>
+                  <h2>Professional Journey</h2>
+                  <p>Experienced Full Stack Developer specializing in building responsive and scalable web applications using React.js, Node.js, Express.js, Laravel and MySQL.</p>
+                </div>
+              </div>
+
+              <div class="experience-cards">
+                <!-- <div class="exp-card featured" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="card-header">
+                    <div class="company-logo">
+                      <i class="bi bi-buildings"></i>
+                    </div>
+                    <div class="period-badge">Current</div>
+                  </div>
+                  <div class="card-body">
+                    <h3>Senior Creative Director</h3>
+                    <p class="company-name">Digital Innovation Labs</p>
+                    <span class="duration">2023 - Present</span>
+                    <p class="description">Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute.</p>
+                    <div class="skills-tags">
+                      <span class="skill-tag">Leadership</span>
+                      <span class="skill-tag">Strategy</span>
+                      <span class="skill-tag">Innovation</span>
+                    </div>
+                  </div>
+                </div> -->
+
+                <div class="exp-card" data-aos="zoom-in" data-aos-delay="350">
+                  <div class="card-header">
+                    <div class="company-logo">
+                      <i class="bi bi-laptop"></i>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h3>Full stack developer Internship</h3>
+                    <p class="company-name">a2z it hub, Ahilyanagar</p>
+                    <span class="duration">Mar 2024 - Aug 2024</span>
+                    <p class="description">Completed a 6-month Full Stack Development internship, gaining hands-on experience in building responsive, scalable web applications using React.js, Node.js, Express.js, and MySQL.</p>
+                  </div>
+                </div>
+
+                <div class="exp-card" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="card-header">
+                    <div class="company-logo">
+                      <i class="bi bi-palette"></i>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h3>Full Stack Developer Training</h3>
+                    <p class="company-name">a2z it hub, Ahilyanagar</p>
+                    <span class="duration">Aug 2023 - Mar 2024</span>
+                    <p class="description">Completed a 6-month Full Stack Development training, gaining hands-on experience in building responsive, scalable web applications using React.js, Node.js, Express.js, laravel, and MySQL.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="education-section">
+              <div class="section-header" data-aos="fade-left" data-aos-delay="200">
+                <div class="header-content">
+                  <span class="section-badge">Education</span>
+                  <h2>Academic Background</h2>
+                  <p>Completed B.B.A.C.A and pursuing MCA, building a strong foundation in business and computer applications.</p>
+                </div>
+              </div>
+
+              <div class="education-timeline" data-aos="fade-left" data-aos-delay="300">
+                <div class="timeline-track">
+                  <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="education-meta">
+                        <span class="year-range">2025 - Present</span>
+                        <span class="degree-level">Masters</span>
+                      </div>
+                      <h4>Master of Computer Application (MCA)</h4>
+                      <p class="institution">Savitribai Phule Pune University</p>
+                      <p class="description">Pursuing a Master of Computer Application (MCA) with a focus on software development and modern web technologies.</p>
+                      <!-- <div class="achievement">
+                        <i class="bi bi-award"></i>
+                        <span>Summa Cum Laude</span>
+                      </div> -->
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <i class="bi bi-book"></i>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="education-meta">
+                        <span class="year-range">2022 - 2025</span>
+                        <span class="degree-level">Bachelor</span>
+                      </div>
+                      <h4>Bachelor of Business Administration & Computer Application (BBACA)</h4>
+                      <p class="institution">Savitribai Phule Pune University</p>
+                      <p class="description">Completed B.B.A.C.A (Bachelor of Business Administration in Computer Applications), gaining foundational knowledge in business management and computer applications.</p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <i class="bi bi-patch-check-fill"></i>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="education-meta">
+                        <span class="year-range">2023 - 2024</span>
+                        <span class="degree-level">Certificates</span>
+                      </div>
+                      <h4>Professional Certifications</h4>
+                      <div class="certifications-list">
+                      <a href="https://www.linkedin.com/posts/viraj-dhakane-40055b265_fullstackdeveloper-mernstack-webdevelopment-activity-7254341049043599361-EN8f?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEELLYABTi4y8wnsdXXjJ6lxleF7lmD9GYI" target="_blank"><div class="cert-item">
+                          <span class="cert-name">Full Stack Developer Internship</span>
+                          <span class="cert-year">2024</span>
+                        </div></a>
+                       <a href="https://www.linkedin.com/posts/viraj-dhakane-40055b265_mern-activity-7222188792604975104-QRwi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEELLYABTi4y8wnsdXXjJ6lxleF7lmD9GYI" target="_blank"> <div class="cert-item">
+                          <span class="cert-name">Full Stack Developer Training</span>
+                          <span class="cert-year">2023</span>
+                        </div></a>
+                   
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Services Section -->
+ 
+    <!-- /Services Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Portfolio</span>
+        <h2>Portfolio</h2>
+        <p>This collection of UI projects includes a Car Rental system for easy vehicle booking, a Public School management portal, a Construction dashboard for project tracking, a PD Graphics design studio site, and a Smart Shop e-commerce platform — all designed with modern, responsive interfaces for seamless user experiences.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <li data-filter="*" class="filter-active">All Work</li>
+            <!-- <li data-filter=".filter-creative">Creative</li>
+            <li data-filter=".filter-digital">Digital</li>
+            <li data-filter=".filter-strategy">Strategy</li>
+            <li data-filter=".filter-development">Development</li> -->
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-creative">
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img src="user/img/portfolio/viraj-portfolio.png" alt="Creative Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Full Stack Node.js</span>
+                      <h4>My Portfolio</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="user/img/portfolio/viraj-portfolio.png" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="#" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag"><a target="_blank" href="https://github.com/viraj0619/portfolio">GitHub Link</a></span>
+                    <span class="tag"><a target="_blank" href="#">Video Link</a></span>
+                  </div>
+                  <div class="project-year">Oct-2025</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-creative">
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img src="user/img/portfolio/pd-graphics.png" alt="Creative Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Full Stack Node.js</span>
+                      <h4>PD-Graphices & Design</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="user/img/portfolio/pd-graphics.png" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="#" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag"><a target="_blank" href="https://github.com/viraj0619/pd-graphices">GitHub Link</a></span>
+                    <span class="tag"><a target="_blank" href="https://www.linkedin.com/posts/viraj-dhakane-40055b265_excited-to-share-my-client-project-pd-activity-7371033289999990784-nbFB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEELLYABTi4y8wnsdXXjJ6lxleF7lmD9GYI">Video Link</a></span>
+                  </div>
+                  <div class="project-year">Aug-2025</div>
+                </div>
+              </div>
+            </div>
+               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-creative">
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img src="user/img/portfolio/construction.png" alt="Creative Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">MERN Stack</span>
+                      <h4>Construction</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="user/img/portfolio/construction.png" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="#" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag"><a target="_blank" href="https://github.com/viraj0619/Contruction">GitHub Link</a></span>
+                    <span class="tag"><a target="_blank" href="https://www.linkedin.com/posts/viraj-dhakane-40055b265_reactjs-bootstrap5-html-activity-7336823233435881472-bJZi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEELLYABTi4y8wnsdXXjJ6lxleF7lmD9GYI">Video Link</a></span>
+                  </div>
+                  <div class="project-year">Jan-2025</div>
+                </div>
+              </div>
+            </div>
+
+               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-creative">
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img src="user/img/portfolio/public-school.png" alt="Creative Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Full Stack Node.js</span>
+                      <h4>Public School Managament System</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="user/img/portfolio/public-school.png" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="#" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag"><a target="_blank" href="https://github.com/viraj0619/public-school-software">GitHub Link</a></span>
+                    <span class="tag"><a target="_blank" href="#">Video Link</a></span>
+                  </div>
+                  <div class="project-year">Aug-2024</div>
+                </div>
+              </div>
+            </div>
+
+               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-creative">
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img src="user/img/portfolio/car-rental.png" alt="Creative Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Full Stack Node.js</span>
+                      <h4>Car Rental System</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="user/img/portfolio/car-rental.png" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="#" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag"><a target="_blank" href="https://github.com/viraj0619/Car-Rental">GitHub Link</a></span>
+                    <span class="tag"><a target="_blank" href="#">Video Link</a></span>
+                  </div>
+                  <div class="project-year">Jun-2024</div>
+                </div>
+              </div>
+            </div>
+
+               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-creative">
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img src="user/img/portfolio/smart-bazar.png" alt="Creative Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Full Stack Node.js</span>
+                      <h4>Multivedor Businesses</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="user/img/portfolio/smart-bazar.png" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="#" class="portfolio-details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag"><a target="_blank" href="https://github.com/viraj0619/SmartBazaar">GitHub Link</a></span>
+                    <span class="tag"><a target="_blank" href="https://www.linkedin.com/posts/viraj-dhakane-40055b265_fullstackdeveloper-smartshop-ecommercewebsite-activity-7338238911036497921-7_E7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEELLYABTi4y8wnsdXXjJ6lxleF7lmD9GYI">Video Link</a></span>
+                  </div>
+                  <div class="project-year">Jan-2024</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="portfolio-bottom" data-aos="fade-up" data-aos-delay="400">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <h3>Like what you see?</h3>
+              <p>Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a href="#contact" class="btn btn-accent">Let's Work Together</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Contact</span>
+        <h2>Contact</h2>
+      
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div>
+                <h3>Address</h3>
+                <p>Shevgaon, Ahilyanagar, Maharashtra, India - 414503</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div>
+                <h3>Call Me</h3>
+                <p>+91 9921677037</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div>
+                <h3>Email Me</h3>
+                <p>dhakaneviraj0@gmail.com</p>
+              </div>
+            </div>
+
+          </div>
+
+        <div class="col-lg-8">
+  <form action="/contact_now" method="POST" class="php-email-form">
+    <div class="row gy-4">
+      
+      <div class="col-md-6">
+        <input 
+          type="text" 
+          name="name" 
+          class="form-control" 
+          placeholder="Your Name" 
+          required
+        >
+      </div>
+
+      <div class="col-md-6">
+        <input 
+          type="email" 
+          name="email" 
+          class="form-control" 
+          placeholder="Your Email" 
+          required
+        >
+      </div>
+
+      <div class="col-md-12">
+        <input 
+          type="text" 
+          name="subject" 
+          class="form-control" 
+          placeholder="Subject" 
+          required
+        >
+      </div>
+
+      <div class="col-md-12">
+        <textarea 
+          name="message" 
+          class="form-control" 
+          rows="6" 
+          placeholder="Message" 
+          required
+        ></textarea>
+      </div>
+
+      <div class="col-md-12 text-center">
+        <div class="loading" style="display: none;">Loading...</div>
+        <div class="error-message text-danger"></div>
+        <div class="sent-message text-success" style="display: none;">Your message has been sent. Thank you!</div>
+
+        <button type="submit" class="btn btn-primary mt-2">Send Message</button>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">VD</span>
+          </a>
+          <p>Full Stack Web Developer with a strong Computer Science Engineering foundation, specializing in designing and developing responsive, scalable web applications using React.js, Node.js, Express.js, and MySQL, with expertise in admin dashboards, RESTful APIs, responsive UIs, and real-time data handling.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://x.com/viraj_0619?t=CaJKhFb-4Iiv0ktuSShdnQ&s=09" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/share/17Dy4vwGDn/" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/viraj0619?igsh=MTU5NHl3OXpkbDBpeA==" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/viraj-dhakane-40055b265/" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Works</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Software Development</a></li>
+            <li><a href="#">Full Stack Development</a></li>
+            <li><a href="#">MERN Stack Development Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>Karve nagar</p>
+          <p>Pune, Maharashtra</p>
+          <p>India</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 9921677037</span></p>
+          <p><strong>Email:</strong> <span>dhakaneviraj0@gmail.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">VD</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="">Viraj Dhakane</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="user/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="user/vendor/php-email-form/validate.js"></script>
+  <script src="user/vendor/aos/aos.js"></script>
+  <script src="user/vendor/typed.js/typed.umd.js"></script>
+  <script src="user/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="user/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="user/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="user/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="user/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="user/js/main.js"></script>
+
+</body>
+
+</html>
